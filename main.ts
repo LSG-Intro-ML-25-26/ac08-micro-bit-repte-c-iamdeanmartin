@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    radio.sendString("Ieeep")
+    radio.sendString("Python")
     basic.showString("Enviat")
 })
 radio.setGroup(1)
