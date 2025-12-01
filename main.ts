@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
-    radio.sendString("Python")
-    basic.showString("Enviat")
+    radio.sendString("PYTHON")
+    basic.showString("ENVIAT")
 })
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
